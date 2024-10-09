@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <style>
+        h1{
+            color: red;
+            text-align: center;
+            text-shadow: 0 2px 2px;
+        }
+        form{
+            background-color: lightcyan;
+            width: 300px;
+            height: auto;
+            padding: 20px;
+            margin: 0 auto;
+            border-radius: 12px;
+            box-shadow: 0 3px 3px gray;
+        }
+        input:focus{
+            border-color: blue;
+            outline: none;
+            background-color: rgb(233, 234, 239);
+        }
+        .btn{
+            width: 80px;
+            height: 30px;
+            background-color: rgb(208, 247, 247);
+        }
+        .btn:hover{
+            background-color: rgb(149, 243, 243);
+        }
+        .o{
+            padding: 5px;
+        }
+        </style>
+</head>
+<body>
+    <h1>Đăng Nhập</h1>
+    <form action="" method="get">
+        <div>
+            <label>Username</label> <br>
+            <input type="text" >
+        </div>
+        <div>
+            <label>Password</label> <br>
+            <input type="password" >
+        </div>
+        <div>
+            <label><input type="checkbox">Remeber password</label>
+        </div>
+        <hr>
+            <button class="btn" type="submit">Submit</button>
+            <button class="btn" type="reset">Cancel</button>
+    </form>
+</body>
+</html>

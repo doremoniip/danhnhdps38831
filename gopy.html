@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+        background-color: lightcyan;
+        width: 300px;
+        height: auto;
+        padding: 20px;
+        margin: 0 auto;
+        border-radius: 12px;
+        box-shadow: 0 3px 3px gray;
+    }
+    input:focus{
+        border-color: blue;
+        outline: none;
+        background-color: rgb(233, 234, 239);
+    }
+    .btn{
+        width: 80px;
+        height: 30px;
+        background-color: rgb(208, 247, 247);
+    }
+    .btn:hover{
+        background-color: rgb(149, 243, 243);
+    }
+    .o{
+        padding: 5px;
+    }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="o">
+            <label>Họ tên:</label>
+            <input type="text">
+        </div>
+        <div class="o">
+            <label>Email:</label>
+            <input type="text">
+        </div>
+        <div class="o">
+            <label>Tiêu đề:</label>
+            <input type="text">
+        </div>
+        <div class="o">
+            <label>Nội dung:</label> <br>
+            <textarea rows="5" cols="30"></textarea>
+        </div>
+        <hr>
+        <button class="btn" type="submit">Submit</button>
+        <button class="btn" type="reset">Canel</button>
+    </form>
+</body>
+</html>

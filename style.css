@@ -1,0 +1,199 @@
+.container{
+    width: 1000px;
+    height: 1000px;
+    margin:0 auto;
+    position: relative;
+
+}
+header{
+        background-image: url("image/Inf/logooo.jpg");
+        background-size: 100% 100%;
+        height: 250px;
+}
+header .logo{
+    position: absolute;
+    font-size: 100px;
+    left: 0px;
+    top: 0px;
+}
+header .chu{
+    font-weight: bold;
+    font-size: 30px;
+    color:  rgb(10, 155, 191);
+    top:200px;
+    left: 300px;
+    position: absolute;
+}
+header .top-right{
+    width: 200px;
+    height: 30px;
+    background-color:rgb(16, 148, 243);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px;
+
+}
+header .top-right a {
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+header .top-right a:hover{
+    text-decoration: underline;
+    color: rgb(155, 55, 55);
+    font-weight: bold;
+}
+.container nav{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    
+
+}
+.menu ul{
+    list-style-type: none;
+    background-color:rgb(16, 148, 243);
+    text-align:left;
+    margin: 0;
+}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.menu ul li a{
+        display: block;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: large;
+        color: white;
+        padding: 0 10px;
+        line-height: 30px;
+}
+.menu ul li a:hover{
+    background-color: blue;
+    
+}
+.menu ul  ul {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    box-shadow:  o 2px 2px grey;
+    background-color:rgb(186, 240, 240);
+    border-radius: 3px;
+    text-align: left;
+}
+.menu ul ul li {
+    display: block;
+}
+.menu ul ul a {
+    display: block;
+    color: blue;
+    text-decoration: none;
+    font-size: large;
+    font-variant: small-caps;
+    padding: 0 10px;
+    line-height: 30px;
+
+}
+.menu ul ul a:hover {
+    color:white;
+    background-color: blue;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+article{
+    width: 70%;
+    min-height: 600px;
+    background-color: white;
+    float: left;
+}
+aside{
+    width: 30%;
+    height: 600px;
+    background-color:white;
+    float: left;
+}
+.lich{
+    width: 100%;
+
+}
+.lichlv ul{ 
+    list-style: none;
+}
+.lichlv ul a{
+    display: block;
+    background-image: url("image/check.jpg");
+    background-size: 15px;
+    background-position: 10px center;
+    /* cach trai 10px va nam giua theo chiue doc  */
+    background-repeat: no-repeat;
+    padding: 5px 35px;
+    text-decoration: none;
+}
+.lichlv ul a:hover{
+    color: red;
+    text-shadow: 0 2px 2px gray;
+    background-image: url("image/next2.jpg");
+    background-size: 15px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
+footer{
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color:blue;
+    clear: both;
+}
+marquee{
+    font-size: large;
+    color: red;
+    background-color: aquamarine;
+    height: 20px;
+}
+.TinTuc img:hover{
+    box-shadow: 0 3px 3px grey;
+}
+
+.form-controls{
+    width: 90%;
+}
+
+.lichlv {
+    border: 2px solid #007bff; 
+    border-radius: 8px; 
+    padding: 15px; 
+    margin-top: 20px; 
+    background-color: #f8f9fa;
+}
+
+.lichlv h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+.lichlv ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lichlv li {
+    margin: 10px 0;
+}
+
+.lichlv a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.lichlv a:hover {
+    text-decoration: underline;
+}

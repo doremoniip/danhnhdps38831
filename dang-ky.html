@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí</title>
+    <style>
+    h1{
+        color: red;
+        text-align: center;
+        text-shadow: 0 2px 2px;
+    }
+    form{
+        background-color: lightcyan;
+        width: 300px;
+        height: auto;
+        padding: 20px;
+        margin: 0 auto;
+        border-radius: 12px;
+        box-shadow: 0 3px 3px gray;
+    }
+    input:focus{
+        border-color: blue;
+        outline: none;
+        background-color: rgb(233, 234, 239);
+    }
+    .btn{
+        width: 80px;
+        height: 30px;
+        background-color: rgb(208, 247, 247);
+    }
+    .btn:hover{
+        background-color: rgb(149, 243, 243);
+    }
+    .o{
+        padding: 5px;
+    }
+    </style>
+</head>
+<body>
+    <h1>REGISTRARION</h1>
+    <form action="" methor="post" enctype="multipart/form-data">
+        <div class="o">
+            <label >Username:</label>
+            <input type="text">
+        </div>
+        <div class="o">
+            <label >Password:</label>
+            <input type="password">
+        </div>
+        <div class="o">
+            <label >Fullname:</label>
+            <input type="text">
+        </div>
+        <div class="o">
+            <label >Birthday:</label>
+            <input type="date">
+        </div>
+        <div class="o">
+            <label >Picture:</label>
+            <input type="file">
+        </div>
+        <div class="o">
+            <fieldset>
+                <legend>Sex:</legend>
+                <label ><input type="radio" name="GT" checked> Male</label>
+                <label ><input type="radio" name="GT"> Female</label>
+            </fieldset>
+        </div>
+        <div class="o">
+            <fieldset>
+                <legend>Hobbies:</legend>
+                <label ><input type="checkbox" name="GT"> Reading</label>
+                <label ><input type="checkbox" name="GT"> Travel</label>
+                <label ><input type="checkbox" name="GT"> Video game</label>
+                <label ><input type="checkbox" name="GT"> Listen to music</label>
+            </fieldset>
+        <div>
+        <div class="o">
+            <label>Country:</label>
+            <select >
+                <option >Vietnamese</option>
+                <option >Macao</option>
+                <option >Canada</option>
+            </select>
+        </div>
+        <div class="o">
+            <label> Notes:</label> <br>
+            <textarea rows="3" cols="30"></textarea>
+        </div>
+        <hr>
+            <button class="btn" type="submit">Submit</button>
+            <button class="btn" type="reset">Reset</button>
+            <button class="btn" type="reset">Canel</button>
+    </form>
+</body>
+</html>
